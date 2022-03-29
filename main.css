@@ -7,12 +7,31 @@ html {
     font-size: 16pt;
 }
 
+a.button{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #a52121;
+    margin:0 0.3rem 0.3rem 0;
+    border-radius:0.15rem;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'times',sans-serif;
+    font-weight:300;
+    color:#ec1414;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.button:hover{
+     color:#000000;
+     background-color:#3588a8;
+    }
 
 /* Front Page */
 #nameHeader{
     font-size: 2rem;
     text-align: center;
     margin-bottom: 2rem;
+    letter-spacing: 0.2rem;
 }
 #wrapper {
     display: flex;
@@ -70,11 +89,20 @@ letter-spacing: 0.2rem;
 font-size: 0.8rem;
 padding: 0 0 3rem 0;
 padding-bottom: 0.5rem;
-padding-bottom: 0.5rem;
 text-transform: uppercase;
 }
 
 #intro p{
     font-size: 1rem;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 2rem;
+    line-height: 1rem;
+}
+.major{
+    margin-bottom: 1rem;
+    letter-spacing: 0.5rem;
+
+}
+#intro{
+    width: 50%;
 }
