@@ -7,6 +7,8 @@ html {
     font-size: 16pt;
 }
 
+/* Button Styling */
+
 a.button{
     display:inline-block;
     padding:0.35em 1.2em;
@@ -22,8 +24,8 @@ a.button{
     transition: all 0.2s;
 }
 a.button:hover{
-     color:#000000;
-     background-color:#3588a8;
+    color:#000000;
+    background-color:#8435a8;
     }
 
 /* Front Page */
@@ -47,13 +49,9 @@ a.button:hover{
 
 
 #header {
-   
     display: flex;
-   
     flex-direction: column;
-   
     align-items: center;
- 
 }
 
 
@@ -80,7 +78,10 @@ nav>ul>li>a{
     border: 1px solid grey;
 
 }
-
+nav>ul {
+    display:flex;
+    flex-direction: row;
+}
 
 /* About Me */
 h2{
@@ -89,10 +90,10 @@ letter-spacing: 0.2rem;
 font-size: 0.8rem;
 padding: 0 0 3rem 0;
 padding-bottom: 0.5rem;
-text-transform: uppercase;
+text-transform: uppercase; 
 }
 
-#intro p{
+#intro p, section p{
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 2rem;
@@ -100,7 +101,7 @@ text-transform: uppercase;
 }
 .major{
     margin-bottom: 1rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
 
 }
 #intro{
