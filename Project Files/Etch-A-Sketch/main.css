@@ -1,0 +1,118 @@
+h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Roboto',sans-serif;
+}
+
+button{
+    font-family:'Roboto',sans-serif;
+    font-size: 20px;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    text-align:center;
+    transition: all 0.15s;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+button:hover{
+
+    color:rgb(148, 34, 34);
+    
+}
+
+#gridinput{
+    width: 100px;
+    height: 20px;
+    background-color: #dedff1;
+    border: #dedff1;
+}
+
+
+/* Submit button color choices*/
+#user-choice{
+    font-family:'Roboto',sans-serif;
+    font-size: 20px;
+    border:0.16em solid #FFFFFF;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    padding:0.5em 3.6em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+}
+
+#submit{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #d4e7f5 0%, #aaadf0 100%);
+    border:0.2em solid #FFFFFF;
+    padding: 1.em
+   
+}
+
+#submit:hover{
+    color:rgb(148, 34, 34);
+
+}
+
+#text{
+    padding: .5em;
+    background-color: #e2e2f0 ;
+}
+
+/*Gradient + flexbox choices*/
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #43cea2;  /* fallback for old browsers */
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #0017ff 100%);
+
+        
+    
+    
+    
+}
+
+/*Grid Box size*/
+.box {
+
+    background: #FFFDD0;
+    border: black 1px solid;
+    
+    width:100%;
+    border: solid 2px #4745e4; 
+    
+    
+
+}
+
+.row {
+
+    border: solid .2px #8BC6EC; 
+    flex-grow:1;
+    display:flex;
+    align-self:stretch;
+
+
+
+}
+
+#sketchpad{
+    border: solid 20px #d4e4ee; 
+    height: 100vh;
+    width: 100vh;
+    display:flex;
+    flex-direction:column;
+}
