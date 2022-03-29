@@ -1,0 +1,67 @@
+body{
+background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-family:sans-serif, 'Times New Roman', Times;
+font-size: 16px;
+font-weight: 1px;
+}
+
+
+.card {
+    border-radius: 8px;
+    margin: 12px;
+    text-align: center;
+    padding: 12px;
+    width: 200px;
+    height: 220px;
+    max-height: max-content;
+    background-color:aqua;
+    content: "\a";
+
+  }
+
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+ 
+  form{
+    font-size: 1em;
+    margin: 15px;
+    background-color: rgb(66, 243, 66, 50%);
+    padding: 40px;
+    width: 150px;
+
+}
+
+input{
+    border-radius: 3px;
+    margin: 4px;
+}
+
+#submit{
+    background-color:rgba(233, 229, 33, 0.4)
+
+}
+
+.delete-button{
+    color:rgb(47, 149, 218);
+    background-color: rgb(217, 226, 226);
+    padding: 1px 14px;
+    width: 80px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+div label{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+
+
