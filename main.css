@@ -1,5 +1,78 @@
 /* Type */
+*{
+    font-family: 'Times New Roman', Times, serif
+}
 
 html {
     font-size: 16pt;
+}
+
+/* Front Page */
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 4rem 2rem;
+
+}
+#wrapper:before {
+    content: '';
+    display: block;
+}
+
+
+#header {
+   
+    display: flex;
+   
+    flex-direction: column;
+   
+    align-items: center;
+ 
+}
+
+
+.name  {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    padding: 0 0 3rem 0;
+    border: 1px solid grey;
+}
+.header1{
+    display: flex;
+    border: 1px solid grey;
+    padding: 0 0 3rem 0;
+}
+
+/* Styling the About, Work and Contact sections */
+nav>ul>li>a{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    list-style-type: none;
+    text-decoration: none;
+    border: 1px solid grey;
+
+}
+
+
+/* About Me */
+.major{
+margin: 0 0 2rem 0;
+letter-spacing: 0.2rem;
+font-size: 0.8rem;
+padding: 0 0 3rem 0;
+padding-bottom: 0.5rem;
+padding-bottom: 0.5rem;
+text-transform: uppercase;
+}
+
+#intro p{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif
 }
