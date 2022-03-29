@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
     <!-- Header -->
+    <div id="wrapper">
     <header>
         <div class="logo">
             <span class= "icon"></span>
@@ -16,7 +18,6 @@
         <div class= "name">
             <h1>Victoria Lam</h1>
             <p>Portfolio for MCIT application program</p>
-          
         </div>
     </header>
     <nav>
@@ -26,6 +27,43 @@
             <li><a href="#contact">Contact</a> </li>
         </ul>
     </nav>
+     <!-- Work-->
+        <h2>Projects</h2>
+        <section></section>
+        <section></section>
+        <section></section>
+
+     <!-- Contact -->
+     <article id="contact">
+        <h2 class="main-contact">Contact</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <div class="fields">
+                <div class="nameField">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div class="emailField">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                </div> 
+                <div class="messageField">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6"></textarea>
+                </div>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message" class="primary" /></li>
+                <li><input type="reset" value="Reset" /></li>
+            </ul>
+        </form>
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="https://github.com/LVictoria159753" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+    </article>  
+</div>
     <!-- Scripts -->
     <script src="script.js"></script>
 </body>
