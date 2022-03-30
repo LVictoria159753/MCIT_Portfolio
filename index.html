@@ -60,22 +60,27 @@
     </div>
      <!-- Contact --> 
      <article id="contact">
-        <h2 class="main-contact">Contact</h2>
+      <div id="contact-wrapper">
         <form name="contact" method="POST" data-netlify="true">
+            <h2 class="main-contact">Connect With Me</h2>
             <div class="fields">
                 <div class="nameField">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name"placeholder="Your Name" />
                 </div>
                 <div class="emailField">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email"placeholder="Your Message" />
+                </div> 
+                <div class="subjectField">
+                    <label for="subhect"></label>
+                    <input type="text" name="subject" id="subject"placeholder="Subject line" />
                 </div> 
                 <div class="messageField">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="4"></textarea>
+                    <label for="message" placeholder="Message"></label>
+                    <textarea name="message" id="message" rows="4"placeholder="Message"></textarea>
                 </div>
-            </div>
+           
             <ul class="actions">
                 <li><input type="submit" value="Send Message" class="submitprimary" /></li>
                 <li><input type="reset" value="Reset" class="submitprimary"/></li>
@@ -85,6 +90,7 @@
             <li><a href="https://www.instagram.com/artworkbyvictoria/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
             <li><a href="https://github.com/LVictoria159753" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
         </ul>
+    </div>
     </article>  
 </div>
     <!-- Scripts -->
