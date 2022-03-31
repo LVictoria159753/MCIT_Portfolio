@@ -43,9 +43,6 @@ FRONT PAGE STYLING
 }
 
 
-
-
-
 .name {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -56,16 +53,29 @@ FRONT PAGE STYLING
     height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
 
 }
 
 
-/*******************************
-ABOUT SECTION
-*******************************/
+.name p{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:2rem;
+}
 
-/* Styling the About */
+
+
+/*******************************
+PROJECTS SECTION
+*******************************/
+nav>ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 nav>ul>li>a{
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -75,19 +85,14 @@ nav>ul>li>a{
     border: 1px solid grey;
 
 }
-.name p{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    padding:2rem;
-}
-nav>ul {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
-/* About Me */
+
+
+
+
+
+
+
 h2{
 margin: 0 0 2rem 0;
 letter-spacing: 0.2rem;
@@ -97,6 +102,13 @@ padding-bottom: 0.5rem;
 text-transform: uppercase; 
 }
 
+.major{
+    font-size: 2rem;
+}
+
+h3, section p{
+    font-size: 2rem;
+}
 #intro p, section p{
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
