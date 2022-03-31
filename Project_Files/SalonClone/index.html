@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <nav>
+            
+            <ul>
+                <a href="#">Salon Name</a>
+                <a href="#main"><li>Home</li></a>
+                <a href="#wrap"><li>About</li></a>
+                <a href="#Beauticians"><li>Services</li></a>
+                <a href="#look"><li>LookBook</li></a>
+                <a href="#momentum"><li>News</li></a>
+                <a href="#contact"><li>Contact</li></a>
+                <a href="#contact"><li>Book Online</li></a>
+            </ul>
+        </nav>
+        <section id="main">
+            <img src="Model1.jpg" alt="model" style="max-width:100%;height:auto;">
+            <div class="text-box-header">
+                <h1>Color </h1>
+            <h1> & Highlight</h1>
+                <p>Create a Look that is unqiuely your own</p>
+            </div>
+            <div class="text-box-mini">
+                <a href="#Beauticians">
+                    Our Services
+                </a>
+            </div>
+                <div class="text-block">
+                  <h4>Your First Visit?</h4>
+                  <p> 
+                      <span class="twenty">20%</span> 
+                      Off for the first hair styling</p>
+               <button> <a href="#contact">Book Online</a></button>
+                </div>
+              </div>
+        </section>
+        <div id="wrap" class="wrap">
+            
+        <article>
+            <img src="mini1.png" alt="chairlogo">
+            <h3>Expert Beauticians</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi iure dicta nulla? Saepe laudantium sint velit labore, cupiditate eligendi voluptatibus magni laboriosam impedit quo possimus autem. Ea earum id aspernatur.</p>
+        </article>
+
+        <article>
+            <img src="mini2.png" alt="haircream">
+            <h3>Quality Services</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi iure dicta nulla? Saepe laudantium sint velit labore, cupiditate eligendi voluptatibus magni laboriosam impedit quo possimus autem. Ea earum id aspernatur.</p>
+        </article>
+       
+        <article>
+            <img src="mini3.png" alt="personlogo">
+            <h3>Beauty Products</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi iure dicta nulla? Saepe laudantium sint velit labore, cupiditate eligendi voluptatibus magni laboriosam impedit quo possimus autem. Ea earum id aspernatur.</p>
+        </article>
+        </div>
+    </section>
+    <section id="momentum">
+        <div class="momentumParagraph">
+            <h3 class="para">Make Your Own Momentum</h3>
+            <div>
+        <a href=""><img src="videoimg.png" alt="hair styling video"></a>
+    </section>
+   
+    <section id="Beauticians">
+        <div class="wrap">
+            <a href="#" class="hover">
+            <article class="overlay" >
+                <img src="ScissorPerson.jpg" alt="person with scissors">
+                <div class="box-styling">
+                    <span>Angie Smith</span>
+                    <div>Colorist</div>
+                </div>
+            </a>
+            </article>
+            
+            <article>
+                <a href="#" class="hover">
+                <img src="Person1.jpg" alt="salon person">
+                <div class="box-styling">
+                    <span>Anna Smith</span>
+                    <div>Stylist</div>
+                </div>
+                </a>
+               
+            </article>
+            <article>
+                <a href="#" class="hover">
+                <img src="Person2.jpg" alt="salon person">
+                <div class="box-styling">
+                    <span>Anna Smith</span>
+                    <div>Stylist</div>
+                </div>
+                </a>
+               
+            </article>
+  
+            </div>
+        </section>
+    </section>
+
+    <div id="look"><h2 id="lookbookHeader">Our LookBook</h2></div>
+    <section id="lookbook">
+       
+        <div class="column">
+            <a href="#"><img src="model1.2.jpg" alt="Model" class="cropped"></a>
+            <a href="#"><img src="makeup-upsplash.jpg" alt="Model" class="cropped2"></a>
+        </div>
+        <div class="column">
+    
+            <a href="#"><img src="makeup-upsplash.jpg" alt="Model" class="cropped2"></a>
+            <a href="#"><img src="model1.2.jpg" alt="Model" class="cropped"></a>
+        </div>
+        <div class="column">
+            <a href="#"><img src="model1.2.jpg" alt="Model" class="cropped"></a>
+            <a href="#"><img src="makeup-upsplash.jpg" alt="Model" class="cropped2"></a>
+        </div>
+    </section>
+    
+    <section id="contact">
+              <form name="contact" method="POST" data-netlify="true">
+                  <h2 class="main-contact">Contact Us</h2>
+                  <div class="fields">
+                      <div class="nameField">
+                          <label for="name"></label>
+                          <input type="text" name="name" id="name"placeholder="Your Name" />
+                      </div>
+                      <div class="emailField">
+                          <label for="email"></label>
+                          <input type="text" name="email" id="email"placeholder="Your Message" />
+                      </div> 
+                      <div class="subjectField">
+                          <label for="subhect"></label>
+                          <input type="text" name="subject" id="subject"placeholder="Subject line" />
+                      </div> 
+                      <div class="messageField">
+                          <label for="message" placeholder="Message"></label>
+                          <textarea name="message" id="message" cols="10" rows="5"placeholder="Message"></textarea>
+                      </div>
+
+                  <div class="actions">
+                      <input type="submit" value="Send Message" class="submitprimary">
+                      <div class="divider"></div>
+                      <input type="reset" value="Reset" class="submit"/>  </div>
+
+             
+              </form>
+              
+    </section>
+</body>
+</html>

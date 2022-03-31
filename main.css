@@ -1,3 +1,6 @@
+/*******************************
+GENERAL
+*******************************/
 /* Type */
 *{
     font-family: 'Times New Roman', Times, serif;
@@ -29,6 +32,9 @@ a.button:hover{
     background-color:#8435a8;
     }
 
+/*******************************
+FRONT PAGE STYLING
+*******************************/
 /* Front Page */
 #nameHeader{
     font-size: 2rem;
@@ -40,11 +46,6 @@ a.button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    padding: 4rem 2rem;
 
 }
 
@@ -69,7 +70,11 @@ a.button:hover{
     padding: 0 0 3rem 0;
 }
 
-/* Styling the About, Work and Contact sections */
+/*******************************
+ABOUT SECTION
+*******************************/
+
+/* Styling the About */
 nav>ul>li>a{
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -118,6 +123,9 @@ padding-bottom: 0.5rem;
 text-transform: uppercase; 
 }
 
+/*******************************
+CONTACT FORM STYLING
+*******************************/
 /* Button Styling for Contact Form */
 .submitprimary{
     padding:0.4rem 1.2rem;
@@ -143,6 +151,8 @@ text-transform: uppercase;
     background-color: white;
 }
 
+
+
 /* Contact Form Styling*/
 input#name, input#email, input#subject{
     padding:.5 .5rem;
@@ -156,18 +166,81 @@ input#name, input#email, input#subject{
     padding:3rem 10rem;
     height: 40px;
 }
-#contact{
-    width:100%;
-    height: 100vh;
-    border:1px solid green;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+
+#contact, label, input, textarea, ::placeholder {
+    background-color:rgb(245, 127, 127);
+    color:white;
+    padding:3rem;
+    width:100%
+  
+  }
+
+  input[type=text],input[type=textarea] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(238, 237, 237);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  input[type=reset], input[type=submit], textarea#message{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(238, 237, 237);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  textarea#message{
+    border: 3px solid rgb(238, 237, 237);
+    width: 50%;
+  
+  }
+  .actions{
+  display:flex;
+  flex-direction: row;
+  width:20%;
+  margin: 8px 0;
+  margin-left: 30px;
+  
+  }
+  .divider{
+    width:5px;
+  
+  }
+
+
+
+
+
+
+
+
+/***********************
+ABOUT ME ANIMATION
+***********************/
+
+#intro{
+    animation:transitionIn 2s;
 }
 
-#contact-wrapper{
-    background-color: pink;
-    height: 50% ;
 
-   
+
+/* Page Load Transitions*/
+@keyframes transitionIn{
+    from{
+        opacity:0;
+
+    }
+
+    to{
+        opacity:1;
+
+    }
 }
+
+
