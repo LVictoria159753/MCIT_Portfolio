@@ -196,13 +196,18 @@ CONTACT FORM STYLING
 /* Contact Form Styling*/
 
 .main-contact{
-    font-size: 1.5rem;
+    font-size: 2rem;
+        margin: .5rem;
+        padding:.5 .5rem;
 }
 #contact-wrapper{
     margin: 1rem;
     border: 1px solid green;
 }
 
+#space{
+    padding:1.5rem;
+}
 
 input#name, input#email, input#subject{
     padding:.5 .5rem;
