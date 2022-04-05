@@ -250,11 +250,13 @@ input#name, input#email, input#subject{
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
+    
   }
   
   textarea#message{
     border: 3px solid rgb(238, 237, 237);
     width: 50%;
+    margin: 8px 0;
   
   }
   .actions{
@@ -274,6 +276,7 @@ input#name, input#email, input#subject{
     background-color:rgb(245, 127, 127);
     color:white;
 }
+
 
 /***********************
 NAME
