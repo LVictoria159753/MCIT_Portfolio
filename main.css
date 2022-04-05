@@ -202,11 +202,15 @@ CONTACT FORM STYLING
 }
 #contact-wrapper{
     margin: 1rem;
-    border: 1px solid green;
+
 }
 
+.actions{
+    margin-left: 2rem;
+
+}
 #space{
-    padding:1.5rem;
+    padding:1rem; 
 }
 
 input#name, input#email, input#subject{
@@ -241,7 +245,6 @@ input#name, input#email, input#subject{
   }
   input[type=reset], input[type=submit], textarea#message{
     padding: 12px 20px;
-    margin: 8px 0;
     box-sizing: border-box;
     border: 3px solid rgb(238, 237, 237);
     -webkit-transition: 0.5s;
@@ -259,7 +262,7 @@ input#name, input#email, input#subject{
   flex-direction: row;
   width:20%;
   margin: 8px 0;
-  margin-left: 30px;
+  margin: .5rem;
   background-color:rgb(245, 127, 127);
   
   }
